@@ -1,0 +1,55 @@
+<blog-navbar></blog-navbar>
+<div class="container">
+    <div class="row">
+        <!--左侧内容-->
+        <div class="col-sm-9">
+            <!--统计图-->
+            <blog-charts></blog-charts>
+            <!--最新技术-->
+            <blog-technology></blog-technology>
+            <!--分享知识-->
+            <blog-share></blog-share>
+            <!--文章更新-->
+            <blog-artical></blog-artical>
+        </div>
+        <!-- 右侧广告, 新闻等等 -->
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        最新动态
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        1. angular2
+                    </p>
+                    <p>
+                        2. node
+                    </p>
+                    <p>
+                        3. express
+                    </p>
+                    <p>
+                        4. 微信小程序
+                    </p>
+                    5. ionic2
+
+                </div>
+            </div>
+            <p>
+                <img src="./app/images/sf-ad.jpg" class="img-responsive"/>
+            </p>
+            <p>
+                <img src="./app/images/js-ad.jpg" class="img-responsive"/>
+            </p>
+            <p>
+                <img src="./app/images/zh-ad.jpg" class="img-responsive"/>
+            </p>
+            <p>
+                <img src="./app/images/gt-ad.png" class="img-responsive"/>
+            </p>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
